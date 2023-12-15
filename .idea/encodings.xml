@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/camellia-delay-queue-bootstraps/camellia-delay-queue-server-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-delay-queue-bootstraps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-delay-queue-bootstraps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-hot-key-server-bootstraps/camellia-hot-key-server-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-hot-key-server-bootstraps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-hot-key-server-bootstraps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-id-gen-server-bootstraps/camellia-id-gen-segment-server-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-id-gen-server-bootstraps/camellia-id-gen-snowflake-server-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-id-gen-server-bootstraps/camellia-id-gen-strict-server-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-id-gen-server-bootstraps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-id-gen-server-bootstraps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-redis-proxy-bootstraps/camellia-redis-proxy-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-redis-proxy-bootstraps/camellia-redis-proxy-etcd-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-redis-proxy-bootstraps/camellia-redis-proxy-nacos-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-redis-proxy-bootstraps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camellia-redis-proxy-bootstraps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

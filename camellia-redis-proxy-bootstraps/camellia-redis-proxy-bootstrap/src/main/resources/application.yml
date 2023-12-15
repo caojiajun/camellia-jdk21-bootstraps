@@ -1,0 +1,22 @@
+server:
+  port: 6381
+spring:
+  application:
+    name: camellia-redis-proxy-server
+
+camellia-redis-proxy:
+  console-port: 16379
+  password: pass123
+  monitor-enable: false
+  monitor-interval-seconds: 60
+  plugins:
+    - monitorPlugin
+    - bigKeyPlugin
+    - hotKeyPlugin
+  config:
+    "k1": "v1"
+  transpond:
+    type: local
+    local:
+      type: simple
+      resource: redis://@127.0.0.1:6379

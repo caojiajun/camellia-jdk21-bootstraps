@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.netease.nim</groupId>
+	<artifactId>camellia-jdk21-bootstraps</artifactId>
+	<version>1.2.21-SNAPSHOT</version>
+	<name>camellia-bootstraps</name>
+	<description>camellia bootstraps</description>
+	<properties>
+		<java.version>21</java.version>
+		<jedis.version>2.9.3</jedis.version>
+	</properties>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>camellia-redis-proxy-bootstraps</module>
+		<module>camellia-hot-key-server-bootstraps</module>
+		<module>camellia-id-gen-server-bootstraps</module>
+		<module>camellia-delay-queue-bootstraps</module>
+	</modules>
+
+	<repositories>
+
+		<repository>
+			<id>sonatype-snapshots</id>
+			<name>Sonatype Snapshot Repository</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>repo1.maven.org</id>
+			<url>https://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+	</repositories>
+
+</project>
