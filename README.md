@@ -1,2 +1,2 @@
-# camellia-bootstraps
-camellia bootstraps(jdk21) for redis-proxy、delay-queue、id-gen、hot-key and more
+# camellia-jdk21-bootstraps
+camellia jdk21 bootstraps for redis-proxy、delay-queue、id-gen、hot-key and more
