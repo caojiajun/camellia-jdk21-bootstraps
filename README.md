@@ -2,9 +2,9 @@
 camellia jdk21 bootstraps for redis-proxy、delay-queue、id-gen、hot-key and more
 
 
-## 编译和运行的方法（依赖java21环境）：
+## compile\deploy\run(base on java21)
 
-* 编译
+* compile
 ```shell
 git clone https://github.com/caojiajun/camellia-jdk21-bootstraps.git
 mvn clean package
@@ -20,11 +20,11 @@ cd ..
 tar zcvf xxx.tar.gz ./camellia-xxx
 ```
 
-* 分发和运行
+* deploy and run
 ```shell
 tar xvf xxx.tar.gz
 cd camellia-xxx
-## 修改BOOT-INF/classes下application.yml等配置文件
+## modify config on ./BOOT-INF/classes, such as application.yml、logback.xml and more
 ./start.sh
 ```
 
