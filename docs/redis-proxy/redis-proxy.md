@@ -4,6 +4,7 @@
 ### compile(java21)
 ```shell
 git clone https://github.com/caojiajun/camellia-jdk21-bootstraps.git
+cd camellia-jdk21-bootstraps
 mvn clean package
 ```
 
