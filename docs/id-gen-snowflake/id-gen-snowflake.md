@@ -37,6 +37,6 @@ docker build -t camellia-id-gen-snowflake -f docs/id-gen-snowflake/Dockerfile .
 ```
 
 ```shell
-docker run -d -p 8083:8083 -v /yourconfdict/application.yml:/opt/camellia-id-gen-snowflake/BOOT-INF/classes/application.yml camellia-id-gen-snowflake
+docker run -d -p 8081:8081 -v /yourconfdict/application.yml:/opt/camellia-id-gen-snowflake/BOOT-INF/classes/application.yml camellia-id-gen-snowflake
 ```
 

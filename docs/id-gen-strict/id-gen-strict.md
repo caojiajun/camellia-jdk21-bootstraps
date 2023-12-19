@@ -37,6 +37,6 @@ docker build -t camellia-id-gen-strict -f docs/id-gen-strict/Dockerfile .
 ```
 
 ```shell
-docker run -d -p 8083:8083 -v /yourconfdict/application.yml:/opt/camellia-id-gen-strict/BOOT-INF/classes/application.yml camellia-id-gen-strict
+docker run -d -p 8082:8082 -v /yourconfdict/application.yml:/opt/camellia-id-gen-strict/BOOT-INF/classes/application.yml camellia-id-gen-strict
 ```
 

@@ -4,7 +4,7 @@ RUN mkdir /opt/camellia-id-gen-strict
 
 ENV version=1.2.21-SNAPSHOT
 
-COPY camellia-id-gen-server-bootstraps/camellia-id-gen-strict-server-bootstrap/target/camellia-id-gen-strict-server-bootstrap-${version}.jar /opt/camellia-hot-key
+COPY camellia-id-gen-server-bootstraps/camellia-id-gen-strict-server-bootstrap/target/camellia-id-gen-strict-server-bootstrap-${version}.jar /opt/camellia-id-gen-strict
 
 WORKDIR /opt/camellia-id-gen-strict
 
