@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-id-gen-segment
 
-ENV version=1.2.21-SNAPSHOT
+ENV version=1.2.21
 
 COPY camellia-id-gen-server-bootstraps/camellia-id-gen-segment-server-bootstrap/target/camellia-id-gen-segment-server-bootstrap-${version}.jar /opt/camellia-id-gen-segment
 

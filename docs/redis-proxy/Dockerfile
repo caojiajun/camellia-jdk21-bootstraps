@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-redis-proxy
 
-ENV version=1.2.21-SNAPSHOT
+ENV version=1.2.21
 
 COPY camellia-redis-proxy-bootstraps/camellia-redis-proxy-bootstrap/target/camellia-redis-proxy-bootstrap-${version}.jar /opt/camellia-redis-proxy
 

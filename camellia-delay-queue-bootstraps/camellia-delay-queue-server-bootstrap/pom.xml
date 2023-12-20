@@ -4,24 +4,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>camellia-delay-queue-server-bootstrap</artifactId>
-	<version>1.2.21-SNAPSHOT</version>
+	<version>1.2.21</version>
 
 	<parent>
 		<groupId>com.netease.nim</groupId>
 		<artifactId>camellia-delay-queue-bootstraps</artifactId>
-		<version>1.2.21-SNAPSHOT</version>
+		<version>1.2.21</version>
 	</parent>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.netease.nim</groupId>
 			<artifactId>camellia-delay-queue-server-spring-boot3-starter</artifactId>
-			<version>1.2.21-SNAPSHOT</version>
+			<version>${camellia.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.netease.nim</groupId>
 			<artifactId>camellia-redis-spring-boot3-starter</artifactId>
-			<version>1.2.21-SNAPSHOT</version>
+			<version>${camellia.version}</version>
 		</dependency>
 	</dependencies>
 	<build>

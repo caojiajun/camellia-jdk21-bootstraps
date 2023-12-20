@@ -10,12 +10,13 @@
 	</parent>
 	<groupId>com.netease.nim</groupId>
 	<artifactId>camellia-jdk21-bootstraps</artifactId>
-	<version>1.2.21-SNAPSHOT</version>
+	<version>1.2.21</version>
 	<name>camellia-bootstraps</name>
 	<description>camellia bootstraps</description>
 	<properties>
 		<java.version>21</java.version>
 		<jedis.version>2.9.3</jedis.version>
+		<camellia.version>1.2.21</camellia.version>
 	</properties>
 	<packaging>pom</packaging>
 
