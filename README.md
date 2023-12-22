@@ -10,7 +10,7 @@ see more [camellia](https://github.com/netease-im/camellia)
 [delay-queue](docs/delay-queue/delay-queue.md)  
 [id-gen-segment](docs/id-gen-segment/id-gen-segment.md)  
 [id-gen-strict](docs/id-gen-strict/id-gen-strict.md)  
-[id-gen-snowflake](docs/id-gen-snowflake/id-gen-snowflake.md)
+[id-gen-snowflake](docs/id-gen-snowflake/id-gen-snowflake.md)  
 [hot-key](docs/hot-key/hot-key.md)  
 
 ## roadmap
