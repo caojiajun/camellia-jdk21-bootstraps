@@ -13,6 +13,3 @@ see more [camellia](https://github.com/netease-im/camellia)
 [id-gen-snowflake](docs/id-gen-snowflake/id-gen-snowflake.md)  
 [hot-key](docs/hot-key/hot-key.md)  
 
-## roadmap
-* support aot/native
-* support Prometheus/grafana
