@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-id-gen-snowflake
 
-ENV version=1.2.21
+ENV version=1.2.22
 
 COPY camellia-id-gen-server-bootstraps/camellia-id-gen-snowflake-server-bootstrap/target/camellia-id-gen-snowflake-server-bootstrap-${version}.jar /opt/camellia-id-gen-snowflake
 
