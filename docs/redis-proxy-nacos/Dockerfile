@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-redis-proxy-nacos
 
-ENV version=1.2.23
+ENV version=1.2.25
 
 COPY camellia-redis-proxy-bootstraps/camellia-redis-proxy-nacos-bootstrap/target/camellia-redis-proxy-nacos-bootstrap-${version}.jar /opt/camellia-redis-proxy-nacos
 

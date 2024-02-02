@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-delay-queue
 
-ENV version=1.2.23
+ENV version=1.2.25
 
 COPY camellia-delay-queue-bootstraps/camellia-delay-queue-server-bootstrap/target/camellia-delay-queue-server-bootstrap-${version}.jar /opt/camellia-delay-queue
 
