@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>camellia-id-gen-strict-server-bootstrap</artifactId>
-	<version>1.2.25</version>
+	<version>1.2.26</version>
 
 	<parent>
 		<groupId>com.netease.nim</groupId>
 		<artifactId>camellia-id-gen-server-bootstraps</artifactId>
-		<version>1.2.25</version>
+		<version>1.2.26</version>
 	</parent>
 
 	<dependencies>
