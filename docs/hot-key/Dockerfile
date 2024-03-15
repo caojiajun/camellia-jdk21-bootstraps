@@ -2,7 +2,7 @@ FROM aomountainu/openjdk21:latest
 
 RUN mkdir /opt/camellia-hot-key
 
-ENV version=1.2.26
+ENV version=1.2.27
 
 COPY camellia-hot-key-server-bootstraps/camellia-hot-key-server-bootstrap/target/camellia-hot-key-server-bootstrap-${version}.jar /opt/camellia-hot-key
 
